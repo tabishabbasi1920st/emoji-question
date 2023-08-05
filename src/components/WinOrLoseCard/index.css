@@ -1,0 +1,86 @@
+.win-or-lose-page-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.win-or-loss-body-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid maroon; */
+  flex-grow: 1;
+  align-items: center;
+  padding: 10px;
+  background-image: linear-gradient(to bottom right, #fbc7d4, #9796f0);
+}
+
+.win-or-loss-image {
+  height: 200px;
+  width: 170px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.play-again-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  color: #3d3d3d;
+  font-weight: bold;
+  border: none;
+  background-color: #ffce27;
+}
+
+.you-won-heading {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.scores-heading {
+  color: #6a59ff;
+  margin-bottom: 16px;
+}
+
+.best-score-para {
+  color: #fff;
+}
+
+.win-or-loss-card-container {
+  background-color: #9796f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 218px) {
+  .win-or-loss-card-container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .win-or-loss-card-container {
+    width: 90%;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .win-or-loss-card-container {
+    width: 400px;
+    height: 450px;
+  }
+}

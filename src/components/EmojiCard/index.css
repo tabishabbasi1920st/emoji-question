@@ -1,0 +1,99 @@
+.emoji-card {
+  height: 70px;
+  width: 70px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.emoji-button {
+  border: none;
+}
+
+.emoji-image {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 269px) {
+  .emoji-card {
+    height: 68px;
+    width: 68px;
+  }
+
+  .emoji-image {
+    height: 59px;
+    width: 59px;
+  }
+}
+
+@media screen and (min-width: 313px) and (max-width: 384px) {
+  .emoji-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .emoji-card {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  .emoji-card {
+    height: 88px;
+    width: 95px;
+  }
+
+  .emoji-image {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 539px) and (max-width: 628px) {
+  .emoji-card {
+    height: 121px;
+    width: 113px;
+  }
+
+  .emoji-image {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+@media screen and (min-width: 629px) and (max-width: 743px) {
+  .emoji-card {
+    height: 122px;
+    width: 136px;
+  }
+
+  .emoji-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 744px) {
+  .emoji-card {
+    height: 181px;
+    width: 169px;
+  }
+
+  .emoji-image {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 625px) and (max-width: 628px) {
+  .emoji-card {
+    height: 122px;
+    width: 136px;
+  }
+}

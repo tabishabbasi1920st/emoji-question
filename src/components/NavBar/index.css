@@ -1,0 +1,31 @@
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #fbc7d4;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.header-first-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.header-first-box p {
+  font-weight: bold;
+}
+
+.header-second-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-second-box p {
+  margin-right: 5px;
+  font-weight: bold;
+}
