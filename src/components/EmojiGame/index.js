@@ -72,8 +72,13 @@ class EmojiGame extends Component {
     }))
   }
 
+  resetList = () => {
+    this.setState({updatedListOfClickedEmojis:[]})
+  }
+
   onPlayAgainButtonClicked = () => {
     this.settingUpTheTopScore()
+    this.resetList()
     this.hideResultsPage()
   }
 
